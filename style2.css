@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://www.bing.com/th/id/OGC.941143f7e1036aa09a2f32137ddeda3d?pid=1.7&rurl=https%3a%2f%2fgifdb.com%2fimages%2fhigh%2flove-you-baby-cat-couple-k1ei395tl9wj6ig9.gif&ehk=X%2bnt7NcWhogrKwCVdkPl5iB1yJvkZdz%2fe%2biFiWBtj9Y%3d);
+    background-repeat: no-repeat;
+    background-size:350px;
+    background-position-x: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(63, 24, 24);
+    background-color: pink;
+}
+h1 {
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-top: 250px;
+    text-align: center;
+    
+}
+.buttonGroup {
+    display: flex;
+    gap: 20px;
+}
+button {
+    padding: 10px 30px;
+    background-color: rgb(112, 17, 49);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+button:hover {
+    background-color: rgb(156, 82, 82);
+}
